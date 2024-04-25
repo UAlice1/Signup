@@ -62,9 +62,9 @@ const Signin = () => {
       </div>
     );
   }
-
+6
   return (
-    <div className="w-[100vw] h-[100vh] flex flex-col items-center justify-center  bg-[#405a54]">
+    <div className="w-[100vw] h-[100vh] flex flex-col items-center justify-center  bg-[#e6ac00]">
       <h1 className="mb-8 font-bold text-3xl">LOGO HERE</h1>
       <div className=" flex flex-col items-center justify-center py-5 w-[70%] h-[60%] lg:w-[40%] lg:h-[60%] bg-[#613d64] rounded-3xl">
         <h1 className="text-2xl font-medium mb-7">SIGN IN</h1>
@@ -88,7 +88,7 @@ const Signin = () => {
           )}
         </form>
         <button
-          className={`w-[40%] mt-5 py-2  text-[#1f1f23] font-bold rounded-lg mb-4 bg-indigo-600 hover:bg-indigo-700 hover:text-[white] transition-all duration-500`}
+          className={`w-[40%] mt-5 py-2  text-[#99ccff] font-bold rounded-lg mb-4 bg-indigo-600 hover:bg-indigo-700 hover:text-[white] transition-all duration-500`}
           disabled={isSubmitting}
           onClick={handleSubmit}
         >

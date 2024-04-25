@@ -38,8 +38,8 @@ const Resetpass = () => {
   };
 
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-gray-200">
-      <div className="bg-[gray] p-8 rounded-lg shadow-md w-96">
+    <div className="w-full h-screen flex items-center justify-center bg-aliceblue-200">
+      <div className="bg-[#ce9595] p-8 rounded-lg shadow-md w-96">
         <h2 className="text-2xl font-semibold mb-4">Reset Password</h2>
         {successMessage && (
           <p className="text-green-600 mb-4">{successMessage}</p>
@@ -56,7 +56,7 @@ const Resetpass = () => {
             <input
               type="password"
               id="password"
-              className="mt-1 py-2 px-4 block w-full rounded-md border-gray-300 shadow-sm hover:bg-[#393639] hover:text-[white]  transition-all duration-500"
+              className="mt-1 py-2 px-4 block w-full rounded-md border-gray-300 shadow-sm hover:bg-[#ce56ce] hover:text-[#e7b9b9]  transition-all duration-500"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
@@ -65,14 +65,14 @@ const Resetpass = () => {
           <div className="mb-4">
             <label
               htmlFor="confirmPassword"
-              className=" block text-sm font-medium text-gray-700"
+              className=" block text-sm font-medium text-aliceblue-700"
             >
               Confirm Password
             </label>
             <input
               type="password"
               id="confirmPassword"
-              className="mt-1 py-2 px-4 block w-full rounded-md border-gray-300 shadow-sm hover:bg-[#393639] hover:text-[white]  transition-all duration-500"
+              className="mt-1 py-2 px-4 block w-full rounded-md border-gray-300 shadow-sm hover:bg-[#393639] hover:text-[#e6ac00]  transition-all duration-500"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
               required
