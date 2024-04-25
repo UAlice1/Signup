@@ -16,7 +16,6 @@ const App = () => {
         <Route path='/reset' element={<Resetpass/>}/>
        </Routes>
     </BrowserRouter>
-     
   )
 }
 
