@@ -38,18 +38,18 @@ const Resetpass = () => {
   };
 
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-aliceblue-200">
-      <div className="bg-[#ce9595] p-8 rounded-lg shadow-md w-96">
+    <div className="w-full h-screen flex items-center justify-center bg-orange-600-200">
+      <div className="bg-[#9d6a6a] p-8 rounded-lg shadow-md w-96">
         <h2 className="text-2xl font-semibold mb-4">Reset Password</h2>
         {successMessage && (
-          <p className="text-green-600 mb-4">{successMessage}</p>
+          <p className="text-yellow-500 mb-4">{successMessage}</p>
         )}
         {errorMessage && <p className="text-red-600 mb-4">{errorMessage}</p>}
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label
               htmlFor="password"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-medium text-yellow-700"
             >
               New Password
             </label>
@@ -72,7 +72,7 @@ const Resetpass = () => {
             <input
               type="password"
               id="confirmPassword"
-              className="mt-1 py-2 px-4 block w-full rounded-md border-gray-300 shadow-sm hover:bg-[#393639] hover:text-[#e6ac00]  transition-all duration-500"
+              className="mt-1 py-2 px-4 block w-full rounded-md border-gray-300 shadow-sm hover:bg-[rgb(234,95,234)] hover:text-[#e6ac00]  transition-all duration-500"
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
               required

@@ -79,20 +79,20 @@ const Signup = () => {
     <>
       {errorMessage ? (
         <div className="flex flex-col items-center pt-10 gap-3 text-2xl">
-          <span className="text-[blue] font-semibold ">
+          <span className="text-[yellow] font-semibold ">
             You Have Successfully Registered!!
           </span>
           <span>
             Click on the button below to Continue to the Sign In page to Log in
           </span>
-          <button className="py-3 px-9 bg-sky-500 text-black font-bold rounded-2xl">
+          <button className="py-3 px-9 bg-sky-900 text-black font-bold rounded-2xl">
             <Link to="/signin">Sign in</Link>
           </button>
         </div>
       ) : (
-        <div className="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[#486761]">
+        <div className="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-[rgb(0,255,132)]">
           <h1 className="mb-8 font-bold text-3xl">REGISTER HERE</h1>
-          <div className="flex flex-col items-center justify-center py-5 w-[70%] h-[80%] lg:w-[40%] lg:h-[80%] bg-[#613d64] rounded-3xl">
+          <div className="flex flex-col items-center justify-center py-5 w-[70%] h-[80%] lg:w-[40%] lg:h-[80%] bg-[#ebe8ec] rounded-3xl">
             <h1 className="text-2xl font-medium mb-7">SIGN UP</h1>
             <form
               className="flex flex-col gap-6 w-full px-6 lg:px-10"
